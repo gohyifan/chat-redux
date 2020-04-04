@@ -18,6 +18,7 @@ class ChannelList extends Component {
   render() {
     return (
       <div className="channels-container">
+        <h2>Channels</h2>
         <ul>
           {this.props.channels.map(channel => (
             <li
